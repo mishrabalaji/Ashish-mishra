@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMXeBpbEFP6+Y415/yKLIMr",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mishrabalaji/Ashish-mishra/blob/main/recursion.%20py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "q_cldwcXdMui"
+      },
+      "source": [
+        "def f1(x):\n",
+        "  if(x==1):\n",
+        "    return 1\n",
+        "  else:\n",
+        "    return x*f1(x-1)"
+      ],
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nXaL-UzSeFwc",
+        "outputId": "989742ec-5f9f-4c58-d470-1a8f4febe81f"
+      },
+      "source": [
+        "f1(5)"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "120"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 4
+        }
+      ]
+    }
+  ]
+}
